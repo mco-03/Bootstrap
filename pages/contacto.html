@@ -5,12 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
     <title>BOOSTRAPP WEBSITE</title>
 </head>
 <body>
+  <!--Headear nav-->
     <header class="header"> </header>
-    <a href=""><img class="logo" src="img/logo.png"></a>
+    <a href=""><img class="logo" src="/img/logo.png"></a>
    <div class="container">
     <nav class="navbar navbar-expand-lg navbar-light">
         <a class="navbar-brand" href="#">Menú</a>
@@ -20,42 +21,42 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item active">
-              <a class="nav-link" href="../index.html">Home<span class="sr-only"></span></a>
+              <a class="nav-link" href="/index.html">Home<span class="sr-only"></span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="../pages/nosotras.html">Nosotras</a>
+              <a class="nav-link" href="/pages/nosotras.html">Nosotras</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="../pages/portafolio.html">Portafolio</a>
+              <a class="nav-link" href="/pages/portafolio.html">Portafolio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="../pages/servicios.html">Servicios</a>
+              <a class="nav-link" href="/pages/servicios.html">Servicios</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+              <a class="nav-link" href="/pages/contacto.html">Contacto</a>
             </li>
           </ul>
         </div>
       </nav>
    </div> 
-
+<!--Contact form-->
    <form>
     <div class="form-row">
       <div class="col-md-4 mb-3">
-        <label for="validationServer01">First name</label>
+        <label for="validationServer01">Nombre</label>
         <input type="text" class="form-control is-valid" id="validationServer01" placeholder="First name" value="Mark" required>
         <div class="valid-feedback">
-          Looks good!
+          Se ve bien.
         </div>
       </div>
       <div class="col-md-4 mb-3">
-        <label for="validationServer02">Last name</label>
+        <label for="validationServer02">Apellido</label>
         <input type="text" class="form-control is-valid" id="validationServer02" placeholder="Last name" value="Otto" required>
         <div class="valid-feedback">
-          Looks good!
+          Se ve bien.
         </div>
       </div>
-      <div class="col-md-4 mb-3">
+      <!-- <div class="col-md-4 mb-3">
         <label for="validationServerUsername">Username</label>
         <div class="input-group">
           <div class="input-group-prepend">
@@ -67,38 +68,38 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
     <div class="form-row">
       <div class="col-md-6 mb-3">
-        <label for="validationServer03">City</label>
+        <label for="validationServer03">Ciudad</label>
         <input type="text" class="form-control is-invalid" id="validationServer03" placeholder="City" required>
         <div class="invalid-feedback">
-          Please provide a valid city.
+          Inserta una ciudad válida.
         </div>
       </div>
       <div class="col-md-3 mb-3">
-        <label for="validationServer04">State</label>
+        <label for="validationServer04">Estado o departamento</label>
         <input type="text" class="form-control is-invalid" id="validationServer04" placeholder="State" required>
         <div class="invalid-feedback">
-          Please provide a valid state.
+          Por favor inserta un estado válido.
         </div>
       </div>
-      <div class="col-md-3 mb-3">
+      <!-- <div class="col-md-3 mb-3">
         <label for="validationServer05">Zip</label>
         <input type="text" class="form-control is-invalid" id="validationServer05" placeholder="Zip" required>
         <div class="invalid-feedback">
           Please provide a valid zip.
-        </div>
+        </div> -->
       </div>
     </div>
     <div class="form-group">
       <div class="form-check">
         <input class="form-check-input is-invalid" type="checkbox" value="" id="invalidCheck3" required>
         <label class="form-check-label" for="invalidCheck3">
-          Agree to terms and conditions
+          Acepta política de tratamiento de datos.
         </label>
         <div class="invalid-feedback">
-          You must agree before submitting.
+          Debes aceptar antes de enviar el formulario.
         </div>
       </div>
     </div>
