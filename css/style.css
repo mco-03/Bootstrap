@@ -8,3 +8,96 @@
     padding: 1px 2px;
 }
 
+/* Estilos del header */
+
+/* .circle {
+    margin-top: 30px;
+    margin-left:20px;
+    width: 150px;
+    height: 150px;
+    background: pink;
+    border-radius:50%;
+    animation-name: cambiarColor;
+    animation-duration: 10s;
+    animation: mover 3s 1s alternate;
+
+}
+
+/*circle animation*/
+
+/* @keyframes mover {
+    0%{
+        transform: translate(0);
+        background-color: #d4a7b4;
+    }
+
+    25%{
+        transform: translate(100%);
+        background-color:antiquewhite;
+    }
+
+    50%{
+        transform: translate(100% 100%);
+        background-color: #f1abaf;
+    }
+
+    75%{
+        transform: translate(0, 100%);
+        background-color: blanchedalmond;
+    }
+    
+}
+
+@keyframes cambiarColor {
+    from{
+    background-color: beige
+}
+    to{
+        background-color: pink;
+    } */
+
+
+header{
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-between; */
+    height: 10px;
+    padding: 15px;
+    background-color: pink;
+    background-image: linear-gradient(315deg, pink, beige);
+}
+
+/* Estilos del main */
+body {
+    background-color:beige;
+
+}
+
+/* .menu { */
+    /* list-style: none;
+    padding: 0%; */
+    /* background-color: pink;
+    width: 800%;
+    max-width: 800px;
+    margin: right;
+    font-size: larger;
+    border: 3px ;
+    margin-left: 500px;
+}
+
+.menu span a{
+    text-decoration: none;
+    color: beige;
+    padding: 20px;
+    display: block;
+}
+
+.menu span {
+    display: inline-block;
+    text-align: right;
+} */
+
+.nav:hover {
+    background-color: #f1abaf;
+}
+
